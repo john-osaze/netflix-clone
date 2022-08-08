@@ -1,0 +1,219 @@
+*,
+*::after,
+*::before{
+    border: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 65.5%;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to left, #000000a5, #000000a5), url(image/website-bg.jpg) no-repeat fixed center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+:focus{
+    border: none;
+    outline: none;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+main{
+    text-align: center;
+}
+
+section{
+    padding: 2rem 0;
+}
+
+.btn{
+    width: 100%;
+    padding: 1.5rem;
+    background: #e50914;
+    border-radius: .35rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background .4s ease;
+}
+
+nav{
+    padding: 1.5rem 0 0 3rem;
+}
+
+.logo{
+    text-align: left;
+    max-width: 15rem;
+}
+
+.title{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: #ffffff;
+}
+
+.signin-box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.signin-inner{
+    max-width: 45rem;
+    padding: 4rem 7rem;
+    text-align: left;
+    background: rgba(0,0,0,0.75);
+    color: #747474;
+    border-radius: .35rem;
+    margin-bottom: 4rem;
+}
+
+.signin-form .input-box > input{
+    width: 100%;
+    padding: 1.8rem;
+    border: none;
+    margin-bottom: 1.5rem;
+    background: #383838;
+    border-radius: .35rem;
+    color: #fff;
+}
+
+.signin-form .btn-box{
+    margin-top: 2rem;
+}
+
+.signin-form .input-box > input::placeholder{
+    color: #fff;
+}
+
+.signin-addons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.signin-addons .remember-check label{
+    font-size: 1.25rem;
+}
+
+.signin-addons .helper a{
+    font-size: 1.25rem;
+    color: #747474;
+}
+
+.signin-bottom{
+    margin: 10rem 0;
+}
+
+.signin-bottom .endnote{
+    font-size: 1.2rem;
+}
+
+footer{
+    background-color: #000000a5;
+    padding: 2rem 10rem;
+}
+
+.footer-top a{
+    color: #747474;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-links li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.footer-links li a{
+    color: #747474;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 730px) {
+    .footer-links{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        padding-top: 2.5rem;
+    }
+
+    body{
+        background: linear-gradient(to left, #000000, #000000), url(image/website-bg.jpg) no-repeat fixed center;
+        background-size: cover;
+    }
+
+    footer{
+        padding: 1rem 4rem;
+        background-color: transparent;
+    }
+
+    .signin-inner{
+        padding: 2rem 3rem;
+        background: transparent;
+        margin-top: 3rem;
+        margin-bottom: 0;
+    }
+
+    .signin-bottom{
+        margin: 5rem 0;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    nav{
+        padding: 0;
+        padding-top: 2.5rem;
+    }
+
+    footer{
+        padding: 1.5rem;
+        background-color: transparent;
+    }
+
+    .signin-inner{
+        padding: 2rem 1rem;
+    }
+}
