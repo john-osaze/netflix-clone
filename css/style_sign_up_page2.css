@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .icon1 {
+    color: rgb(222, 87, 87);
+    text-align: center;
+    margin: 100px 0 35px;
+  }
+  .indicator {
+    font-size: 13px;
+    text-align: center;
+  }
+  img {
+    width: 200px;
+    margin-left: 20px;
+  }
+  body {
+    font-family: sans-serif;
+  }
+  
+  .body {
+    padding: 20px 32px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    margin: 0px 152px;
+    max-width: 340px;
+  }
+  .heading {
+    color: #333;
+    font-weight: 700;
+    padding-left: 20px;
+  }
+  .heading h1 {
+    margin-bottom: 15px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+  }
+  .nav a {
+    margin: 0 3%;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  .text {
+    color: #333;
+    font-size: 18px;
+    text-align: left;
+    margin: 15px 0px 20px;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .text p {
+    width: 264px;
+    height: 46px;
+    margin: 20px 0px 20px;
+  }
+  .icon2 {
+    color: red;
+    margin-right: 10px;
+  }
+  .anytime {
+    padding-left: 30px;
+  }
+  .button {
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20.5px 2em;
+    width: 340px;
+    height: 65px;
+    background-color: #e50914;
+    color: #fff;
+    margin-top: 12px;
+    border: none;
+  }

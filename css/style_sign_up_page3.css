@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .indicator {
+    font-size: 13px;
+  }
+  img {
+    width: 200px;
+    margin-left: 20px;
+  }
+  body {
+    font-family: sans-serif;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+  }
+  .nav a {
+    margin: 0 3%;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  #block {
+    padding-bottom: 90px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 32px 60px;
+  }
+  .heading {
+    line-height: 1.3;
+    font-size: 20px;
+    color: #333;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 12.8px;
+  }
+  .heading h1 {
+    width: 440px;
+    height: 80px;
+  }
+  .head-text {
+    width: 440px;
+    height: 46px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+  }
+  .head-text .pp {
+    margin-top: 10px;
+  }
+  .second-container {
+    margin: 16px 0px;
+  }
+  .input-form input {
+    color: #8c8c8c;
+    font-size: 14px;
+    width: 100%;
+    height: 60px;
+    padding: 10px 10px 0px;
+  }
+  .input-form .pass {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .checkbox input {
+    border-color: #0071eb;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 8px;
+  }
+  label {
+    line-height: 1.2;
+    padding: 10px 8px;
+    margin: 8px 0;
+  }
+  .button {
+    margin-top: 12px;
+    width: 100%;
+    height: 24px;
+    padding: 20.5px 2em;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 500;
+    min-height: 64px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+  }
